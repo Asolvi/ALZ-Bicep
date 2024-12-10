@@ -3,19 +3,19 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "parTopLevelManagementGroupPrefix": {
-      "value": "alz"
+      "value": "mg"
     },
     "parTopLevelManagementGroupSuffix": {
       "value": ""
     },
     "parTopLevelManagementGroupDisplayName": {
-      "value": "Azure Landing Zones"
+      "value": "Asolvi"
     },
     "parTopLevelManagementGroupParentId": {
       "value": ""
     },
     "parLandingZoneMgAlzDefaultsEnable": {
-      "value": true
+      "value": false
     },
     "parPlatformMgAlzDefaultsEnable": {
       "value": true
@@ -24,11 +24,62 @@
       "value": false
     },
     "parLandingZoneMgChildren": {
-      "value": {}
-    },
-    "parPlatformMgChildren": {
-      "value": {}
-    },
+    "value": {
+          "AlarmMasterProDev": {
+            "displayName": "Alarm Master Pro Dev"
+          },
+          "AlarmMasterProProd": {
+            "displayName": "Alarm Master Pro Prod"
+          },
+          "EvaticCloudProd": {
+            "displayName": "Evatic Cloud Prod"
+          },
+          "EvaticMobileDev": {
+            "displayName": "Evatic Mobile Dev"
+          },
+          "EvaticMobileProd": {
+            "displayName": "Evatic Mobile Prod"
+          },
+          "EvaticOnlineDev": {
+            "displayName": "Evatic Online Dev"
+          },
+          "EvaticOnlineProd": {
+            "displayName": "Evatic Online Prod"
+          },
+          "TesseractDev": {
+            "displayName": "Tesseract Dev"
+          },
+          "TesseractProd": {
+            "displayName": "Tesseract Prod"
+          },
+          "TIVAPPProd": {
+            "displayName": "TIVAPP Prod"
+          },
+          "VantageOnlineDev": {
+            "displayName": "Vantage Online Dev"
+          },
+          "VantageOnlineProd": {
+            "displayName": "Vantage Online Prod"
+          },
+          "WinServProd": {
+            "displayName": "WinServ Prod"
+          }
+    }
+},
+
+"parPlatformMgChildren": {
+    "value": {
+        "PlatformDev": {
+          "displayName": "Platform Dev"
+        },
+        "PlatformProd": {
+          "displayName": "Platform Prod"
+        },
+        "PowerBIProd": {
+          "displayName": "Power BI Prod"
+      }
+    }
+},
     "parTelemetryOptOut": {
       "value": false
     }
