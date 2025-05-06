@@ -6,10 +6,10 @@
       "value": "as-alz"
     },
     "parTopLevelManagementGroupSuffix": {
-      "value": ""
+      "value": "-mg"
     },
     "parTopLevelManagementGroupDisplayName": {
-      "value": "Asolvi Landing Zones"
+      "value": "Asolvi"
     },
     "parTopLevelManagementGroupParentId": {
       "value": ""
