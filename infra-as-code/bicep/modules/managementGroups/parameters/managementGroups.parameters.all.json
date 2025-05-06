@@ -15,19 +15,32 @@
       "value": ""
     },
     "parLandingZoneMgAlzDefaultsEnable": {
-      "value": false
+      "value": true
     },
     "parPlatformMgAlzDefaultsEnable": {
-      "value": false
+      "value": true
     },
     "parLandingZoneMgConfidentialEnable": {
       "value": false
     },
     "parLandingZoneMgChildren": {
-      "value": {}
+      "value": {
+        "Products": {
+          "displayName": "Products",
+          "id": "products",
+          "parentId": "as-alz-landingzones-online-mg",
+          "description": "Management group for Products"
+        }
+      }
     },
     "parPlatformMgChildren": {
-      "value": {}
+      "value": {
+        "security": {
+          "displayName": "Security",
+          "id": "security",
+          "description": "Management group for security resources"
+        }
+      }
     },
     "parTelemetryOptOut": {
       "value": false
