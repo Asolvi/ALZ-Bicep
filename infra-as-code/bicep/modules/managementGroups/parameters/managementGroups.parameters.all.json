@@ -25,22 +25,13 @@
     },
     "parLandingZoneMgChildren": {
       "value": {
-        "Products": {
-          "displayName": "Products",
-          "id": "products",
-          "parentId": "as-alz-landingzones-online-mg",
-          "description": "Management group for Products"
+        "applications": {
+          "displayName": "Applications"
         }
       }
     },
     "parPlatformMgChildren": {
-      "value": {
-        "security": {
-          "displayName": "Security",
-          "id": "security",
-          "description": "Management group for security resources"
-        }
-      }
+      "value": {}
     },
     "parTelemetryOptOut": {
       "value": false
