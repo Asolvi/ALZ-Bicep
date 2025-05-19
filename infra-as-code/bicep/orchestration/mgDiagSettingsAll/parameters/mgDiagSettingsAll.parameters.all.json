@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "parTopLevelManagementGroupPrefix": {
-      "value": "alz"
+      "value": "as-alz"
     },
     "parTopLevelManagementGroupSuffix": {
-      "value": ""
+      "value": "-mg"
     },
     "parLandingZoneMgAlzDefaultsEnable": {
       "value": true
@@ -18,16 +18,16 @@
       "value": false
     },
     "parLogAnalyticsWorkspaceResourceId": {
-      "value": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourcegroups/alz-logging/providers/microsoft.operationalinsights/workspaces/alz-log-analytics"
+      "value": "/subscriptions/c2862439-f7c2-4c48-b830-beac83fc1888/resourceGroups/rg-as-alz-logging/providers/Microsoft.OperationalInsights/workspaces/plat-prod-weu-la"
     },
     "parDiagnosticSettingsName": {
-      "value": "toLa"
+      "value": "toplat-prod-weu-la"
     },
     "parLandingZoneMgChildren": {
-      "value": []
+      "value": ["Applications"]
     },
     "parPlatformMgChildren": {
-      "value": []
+      "value": ["Security"]
     },
     "parTelemetryOptOut": {
       "value": false

@@ -31,7 +31,11 @@
       }
     },
     "parPlatformMgChildren": {
-      "value": {}
+      "value": {
+        "security": {
+          "displayName": "Security"
+        }
+      }
     },
     "parTelemetryOptOut": {
       "value": false
