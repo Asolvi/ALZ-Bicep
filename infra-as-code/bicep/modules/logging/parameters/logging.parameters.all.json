@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "parLogAnalyticsWorkspaceName": {
-      "value": "alz-log-analytics"
+      "value": "plat-prod-weu-la"
     },
     "parLogAnalyticsWorkspaceLocation": {
-      "value": "eastus"
+      "value": "westeurope"
     },
     "parLogAnalyticsWorkspaceSkuName": {
       "value": "PerGB2018"
@@ -24,19 +24,19 @@
       ]
     },
     "parDataCollectionRuleVMInsightsName": {
-      "value": "alz-ama-vmi-dcr"
+      "value": "plat-prod-weu-vmi-dcr"
     },
     "parDataCollectionRuleChangeTrackingName": {
-      "value": "alz-ama-ct-dcr"
+      "value": "plat-prod-weu-ct-dcr"
     },
     "parDataCollectionRuleMDFCSQLName": {
-      "value": "alz-ama-mdfcsql-dcr"
+      "value": "plat-prod-weu-mdfcsql-dcr"
     },
     "parUserAssignedManagedIdentityName": {
-      "value": "alz-umi-identity"
+      "value": "plat-prod-weu-identity"
     },
     "parUserAssignedManagedIdentityLocation": {
-      "value": "eastus"
+      "value": "westeurope"
     },
     "parAutomationAccountEnabled": {
       "value": false
@@ -45,10 +45,10 @@
       "value": false
     },
     "parAutomationAccountName": {
-      "value": "alz-automation-account"
+      "value": "plat-prod-weu-aa"
     },
     "parAutomationAccountLocation": {
-      "value": "eastus2"
+      "value": "westeurope"
     },
     "parAutomationAccountUseManagedIdentity": {
       "value": true
